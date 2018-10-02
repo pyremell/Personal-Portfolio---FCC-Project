@@ -1,0 +1,21 @@
+#navbar,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  list-style-type: none;
+  padding: 30px 0;
+  background-color: $mainGreen;
+  font-size: 2rem;
+
+  &__navbar-link {
+    color: white;
+  }
+
+  &__navbar-link:hover {
+    color: darkgreen;
+  }
+}

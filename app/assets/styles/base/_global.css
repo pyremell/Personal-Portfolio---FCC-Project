@@ -3,3 +3,8 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  /* To prevent fixed navbar from overlaying content at top of page */
+  padding-top: 100px;
+}
