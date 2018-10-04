@@ -368,6 +368,15 @@ $mainBlue: blue; */
 body {
   /* To prevent fixed navbar from overlaying content at top of page */
   padding-top: 100px;
+
+  color: white;
+  font-size: 2rem;
+
+  background-image: url(/assets/images/welcome-section-image.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #navbar,
 .navbar {
@@ -396,3 +405,32 @@ body {
 #navbar__navbar-link:hover, .navbar__navbar-link:hover {
     color: darkgreen;
   }
+#welcome-section,
+.welcome-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 150px 10% 0;
+  height: 100vh;
+}
+#welcome-section__header-1,
+  #welcome-section__header-2,
+  .welcome-section__header-1,
+  .welcome-section__header-2 {
+    text-align: center;
+    -webkit-text-stroke: 1px #333;
+  }
+@media (min-width: 800px) {
+
+    #welcome-section__header-1,
+    #welcome-section__header-2,
+    .welcome-section__header-1,
+    .welcome-section__header-2 {
+      font-size: 50px;
+    }
+    }

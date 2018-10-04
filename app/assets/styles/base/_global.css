@@ -7,4 +7,13 @@
 body {
   /* To prevent fixed navbar from overlaying content at top of page */
   padding-top: 100px;
+
+  color: white;
+  font-size: 2rem;
+
+  background-image: url(/assets/images/welcome-section-image.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
