@@ -3,13 +3,20 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 150px 10% 0;
+  padding: 120px 10% 0;
   height: 100vh;
 
   &__header-1,
   &__header-2 {
     text-align: center;
-    -webkit-text-stroke: 1px #333;
+  }
+
+  &__header-1 {
+    padding-bottom: 30px;
+  }
+
+  &__header-2 {
+    color: $mainGrey;
   }
 }
 
@@ -19,7 +26,7 @@
 
     &__header-1,
     &__header-2 {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
 }

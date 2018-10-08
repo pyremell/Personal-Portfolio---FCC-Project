@@ -8,10 +8,10 @@ body {
   /* To prevent fixed navbar from overlaying content at top of page */
   padding-top: 100px;
 
-  color: white;
+  color: $mainGreen;
   font-size: 2rem;
 
-  background-image: url(/assets/images/welcome-section-image.png);
+  background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
