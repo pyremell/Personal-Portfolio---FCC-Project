@@ -4,4 +4,5 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_navbar.css";
-@import "modules/_welcome-section.css"
+@import "modules/_welcome-section.css";
+@import "modules/_projects.css"
